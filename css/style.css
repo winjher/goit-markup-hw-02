@@ -57,18 +57,7 @@ nav ul{
     color: #2E2F42;
     text-align: left;
 }
-.navbar-layout{
-width: Hug (261px);
-height: Hug (24px);
-top: 24px;
-left: 347px;
-gap: 40px;
-}
 
-nav li, web, studio{
-    display: inline-block;
-
-}
 li{
     /* //styleName: Body Medium; */
     font-family: Roboto;
@@ -79,32 +68,6 @@ li{
     text-align: left;
     color: #2E2F42;
     }
-.navbar-layout .Studio {
-width: 48px;
-height: 24px;
-}
-
-.navbar-layout .Portfolio{
-width: 66px;
-height: 24px;
-}
-.navbar-layout .Contacts{
-width: 67px;
-height: 24px;
-}
-.info-layout{
-width: 153px;
-height: 24px;
-top: 24px;
-left: 940px;
-}
-.tel-layout{
-width: 151px;
-height: 24px;
-top: 24px;
-left: 1133px;
-}
-
 nav a:hover{
     background-color: #33ffdd;
 }
@@ -125,16 +88,6 @@ top: -1175px;
 left: 405px;
 } 
 
-.line{
-    /* //styleName: Body; */
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #434455;
-}
 .top-2{
 width: 1440px;
 height: 72px;
