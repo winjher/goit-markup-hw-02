@@ -91,7 +91,7 @@ left: 347px;
 gap: 40px;
 }
 
-nav li{
+nav li, web, studio{
     display: inline-block;
 
 }
