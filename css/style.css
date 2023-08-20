@@ -82,13 +82,6 @@ nav a {
     display: flex;
 }
 
-.hero {
-    width: 1440px;
-    height: 2592px;
-    top: -1175px;
-    left: 405px;
-}
-
 /* Effective Solutions for Your Business */
 .Effective {
     width: 1440px;
@@ -131,7 +124,6 @@ nav a {
     top: 260px;
     left: 472px;
     color: #FFFFFF;
-
 }
 
 .header1{
