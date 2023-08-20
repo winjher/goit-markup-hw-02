@@ -3,6 +3,7 @@ header {
     height: 72px;
     border-bottom: 1px solid #E7E9FC
 }
+
 /* WEBSTUDIO */
 .logo-layout {
     width: Hug (115px);
@@ -39,21 +40,11 @@ header {
 
 .nav-right {
     float: right;
-    width: 153px;
-    height: 24px;
-    top: 24px;
-    left: 940px;
-
 }
 
 .link {
     display: inline-block;
     text-align: center;
-    width: Hug (261px);
-    height: Hug (24px);
-    top: 24px;
-    left: 347px;
-    gap: 40px;
 }
 
 nav ul {
@@ -63,74 +54,16 @@ nav ul {
     color: #2E2F42;
     text-align: left;
 }
-.info {
-    width: 153px;
-    height: 24px;
+
+li {
+    width: Hug (261px);
+    height: Hug (24px);
     top: 24px;
-    left: 940px;
-    /* styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    width: 153px;
-    height: 24px;
-    top: 24px;
-    left: 940px;
-
-}
-.tel {
-    width: 151px;
-    height: 24px;
-    top: 24px;
-    left: 1133px;
-    /* styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
-.hero{
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-    background: #2E2F42;
-}
-/* Effective */
-h1{
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
-    /* styleName: Header 1; */
-    font-family: Roboto;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    background: #FFFFFF;
+    left: 347px;
+    gap: 40px;
 }
 
-.btn{
-    width: Hug (169px);
-    height: Hug (56px);
-    top: 428px;
-    left: 636px;
-    padding: 16px 32px 16px 32px;
-    border-radius: 4px;
-    gap: 10px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px #00000026;
-}
-
-
-
-{
+h2{
     /* styleName: Body Medium; */
     font-family: Roboto;
     font-size: 16px;
@@ -139,8 +72,8 @@ h1{
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
-    
 }
+
 
 nav a:hover {
     background-color: #33ffdd;
@@ -156,15 +89,23 @@ nav a {
     display: flex;
 }
 
-/* Effective Solutions for Your Business */
-.Effective {
+.hero {
     width: 1440px;
-    height: 600px;
-    top: 72px;
-    background: #2E2F42;
-    
+    height: 2592px;
+    top: -1175px;
+    left: 405px;
 }
-.container{
+
+.top-2 {
+    width: 1440px;
+    height: 72px;
+    border: 0px 0px 1px 0px;
+    background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-bottom: 1px solid #E7E9FC
+}
+
+.container {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -172,6 +113,7 @@ nav a {
     -ms-transform: translate(-20%, -30%);
 
 }
+
 .order-button {
     width: Hug (169px);
     height: Hug (56px);
@@ -185,11 +127,20 @@ nav a {
     position: fixed;
     align-items: center;
 }
+
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(0%, -60%);
+}
+
+/* Effective Solutions for Your Business */
+.Effective {
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+    background: #2E2F42;
 }
 
 .ef-color {
@@ -198,16 +149,24 @@ nav a {
     top: 260px;
     left: 472px;
     color: #FFFFFF;
+
 }
 
-.header1{
-    /* styleName: Header 1; */
+/* styleName: Header 1; */
+.header1 {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
+}
+
+.text {
+    width: 496px;
+    height: 120px;
+    top: 260px;
+    left: 472px;
 }
 
 .columns {
@@ -220,15 +179,15 @@ nav a {
     padding: 20px;
 }
 
-.feature-one .feature-two .feaure-three .feature-four {
-    flex: 25%;
-}
-
 section .one {
     width: 1128px;
     height: 104px;
     top: 792px;
     left: 156px;
+}
+
+.feature-one .feature-two .feaure-three .feature-four {
+    flex: 25%;
 }
 
 .feature-one {
@@ -239,10 +198,34 @@ section .one {
     gap: 8px;
 }
 
+.feature-two {
+    width: Fixed (264px);
+    height: Hug (104px);
+    top: 792px;
+    left: 444px;
+    gap: 8px;
+}
+
+.feature-three {
+    width: Fixed (264px);
+    height: Hug (104px);
+    top: 792px;
+    left: 732px;
+    gap: 8px;
+}
+
+.feature-four {
+    width: Fixed (264px);
+    height: Hug (104px);
+    top: 792px;
+    left: 1020px;
+    gap: 8px;
+}
+
 .strategy-layout {
     width: 264px;
     height: 24px;
-    /* styleName: Header 3; */
+    /* //styleName: Header 3; */
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -366,6 +349,33 @@ section .one {
     text-align: left;
     color: #434455;
 }
+.strategy-layout .punctuality-layout .diligence-layout .technology-layout {
+    width: 264px;
+    height: 24px;
+    /* //styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+    flex: 25%;
+}
+
+.ourgoal-layout .bring-layout .research-layout .design-layout {
+    width: 264px;
+    height: 72px;
+    /* //styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+    flex: 25%;
+}
 
 section .two {
     width: 1128px;
@@ -382,7 +392,11 @@ section .two {
 }
 
 .rect-one .rect-two .rect-three {
-   
+    width: 360px;
+    height: 300px;
+    border: 1px;
+    background: #E7E9FC;
+    border: 1px solid #E7E9FC;
     flex: 33.3%;
 }
 
@@ -393,7 +407,9 @@ section .two {
     left: 559px;
 
 }
- .header2{   /* //styleName: Header 2; */
+
+/* styleName: Header 2; */
+.header2 {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -401,20 +417,13 @@ section .two {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
- }
+}
+
 .img-one {
     width: Hug (360px);
     height: Hug (300px);
     top: 1128px;
     left: 156px;
-}
-
-.rect-one {
-    width: 360px;
-    height: 300px;
-    border: 1px;
-    background: #E7E9FC;
-    border: 1px solid #E7E9FC
 }
 
 .img-two {
@@ -424,14 +433,6 @@ section .two {
     left: 540px;
 }
 
-.rect-two {
-    width: 360px;
-    height: 300px;
-    border: 1px;
-    background: #E7E9FC;
-    border: 1px solid #E7E9FC
-}
-
 .img-three {
     width: Hug (360px);
     height: Hug (300px);
@@ -439,18 +440,12 @@ section .two {
     left: 924px;
 }
 
-.rect-three {
-    width: 360px;
-    height: 300px;
-    border: 1px;
-    background: #E7E9FC;
-    border: 1px solid #E7E9FC
-}
-
 section .three {
     width: 1440px;
     height: 732px;
     top: 1548px;
+    background: #F4F4FD;
+    align-items: center;
 }
 
 .ourteam {
@@ -475,7 +470,9 @@ section .card-column {
     align-items: center;
 }
 
-.card-one {
+
+
+.card-one .car-two .card-three .card-four{
     width: Hug (264px);
     height: Hug (380px);
     top: 1780px;
@@ -487,6 +484,7 @@ section .card-column {
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
+    flex: 25%;
 }
 
 .img-card1 {
@@ -598,7 +596,7 @@ section .card-column {
     top: 1.5px;
 }
 
-grp-twit-grp {
+.grp-twit-grp {
     width: 16px;
     height: 13px;
     top: 1.5px;
@@ -618,66 +616,6 @@ grp-twit-grp {
     angle: -0 deg;
     background: #4D5AE5;
 }
-
-.card-two {
-    width: Hug (264px);
-    height: Hug (380px);
-    top: 1780px;
-    left: 444px;
-    padding: 0px 0px 32px 0px;
-    border-radius: 0px 0px 4px 4px;
-    gap: 32px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
-}
-
-.img-card2 {
-    width: 264px;
-    height: 260px;
-}
-
-.card-content2 {
-    width: Fixed (232px);
-    height: Hug (56px);
-    gap: 8px;
-}
-
-.cgarcia {
-    width: 88px;
-    height: 24px;
-    /* styleName: Header 3; */
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    background: #2E2F42;
-}
-
-.marketing {
-    width: 144px;
-    height: 24px;
-    /* styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    background: #434455;
-}
-
-.trail-3 {
-    background: #434455;
-}
-
-/* Property 1="Variant2";
-Property 1="Variant2"; */
-
-
 
 .card-three {
     width: Hug (264px);
@@ -704,7 +642,7 @@ Property 1="Variant2"; */
     gap: 8px;
 }
 
-.dwilliams {
+.cgarcia {
     width: 88px;
     height: 24px;
     /* styleName: Header 3; */
@@ -715,23 +653,6 @@ Property 1="Variant2"; */
     letter-spacing: 0.02em;
     text-align: center;
     background: #2E2F42;
-}
-
-.udesigner {
-    width: 144px;
-    height: 24px;
-    /* styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    background: #434455;
-}
-
-.trail-3 {
-    background: #434455;
 }
 
 .card-four {
@@ -753,13 +674,13 @@ Property 1="Variant2"; */
     height: 260px;
 }
 
-.card-content2 {
+.card-content4 {
     width: Fixed (232px);
     height: Hug (56px);
     gap: 8px;
 }
 
-.tford {
+.dwilliams {
     width: 88px;
     height: 24px;
     /* styleName: Header 3; */
@@ -772,7 +693,7 @@ Property 1="Variant2"; */
     background: #2E2F42;
 }
 
-.fdeveloper {
+.uideveloper {
     width: 144px;
     height: 24px;
     /* styleName: Body; */
@@ -789,6 +710,9 @@ Property 1="Variant2"; */
     background: #434455;
 }
 
+/* Property 1="Variant2";
+Property 1="Variant2"; */
+
 footer {
     width: 1440px;
     height: 312px;
@@ -796,12 +720,7 @@ footer {
     background: #2E2F42;
 }
 
-footer .text-2 {
-    width: 264px;
-    height: 112px;
-    top: 2380px;
-    left: 156px;
-}
+
 
 footer .logo {
     width: Hug (115px);
@@ -819,6 +738,7 @@ footer .text-studio {
     /* background: #F4F4FD; */
     color: #F4F4FD;
 }
+
 footer .body {
     /* styleName: Body; */
     font-family: Roboto;
@@ -832,4 +752,11 @@ footer .body {
     top: 2420px;
     left: 156px;
     color: #F4F4FD;
+    float: left;
+}
+footer .text-2 {
+    width: 264px;
+    height: 112px;
+    top: 2380px;
+    left: 156px;
 }
