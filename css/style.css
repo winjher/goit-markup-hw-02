@@ -1,10 +1,12 @@
 header {
     width: 1440px;
     height: 72px;
+    border: 0px 0px 1px 0px;
+    background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border-bottom: 1px solid #E7E9FC
 }
-
-/* //WEBSTUDIO */
+/* WEBSTUDIO */
 .logo-layout {
     width: Hug (115px);
     height: Fixed (24px);
@@ -56,7 +58,7 @@ nav ul {
 }
 
 li {
-    /* //styleName: Body Medium; */
+    /* styleName: Body Medium; */
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -87,15 +89,14 @@ nav a {
     left: 405px;
 }
 
-.top-2 {
+/* Effective Solutions for Your Business */
+.Effective {
     width: 1440px;
-    height: 72px;
-    border: 0px 0px 1px 0px;
-    background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
-        linear-gradient(0deg, #FFFFFF, #FFFFFF);
-    border-bottom: 1px solid #E7E9FC
+    height: 600px;
+    top: 72px;
+    background: #2E2F42;
+    
 }
-
 .container{
     position: fixed;
     top: 50%;
@@ -124,14 +125,6 @@ nav a {
     transform: translate(0%, -60%);
 }
 
-/* Effective Solutions for Your Business */
-.Effective {
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-    background: #2E2F42;
-    
-}
 .ef-color {
     width: 496px;
     height: 120px;
