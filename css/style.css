@@ -3,7 +3,6 @@ header {
     height: 72px;
     border-bottom: 1px solid #E7E9FC
 }
-
 /* WEBSTUDIO */
 .logo-layout {
     width: Hug (115px);
@@ -40,11 +39,21 @@ header {
 
 .nav-right {
     float: right;
+    width: 153px;
+    height: 24px;
+    top: 24px;
+    left: 940px;
+
 }
 
 .link {
     display: inline-block;
     text-align: center;
+    width: Hug (261px);
+    height: Hug (24px);
+    top: 24px;
+    left: 347px;
+    gap: 40px;
 }
 
 nav ul {
@@ -54,8 +63,74 @@ nav ul {
     color: #2E2F42;
     text-align: left;
 }
+.info {
+    width: 153px;
+    height: 24px;
+    top: 24px;
+    left: 940px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 153px;
+    height: 24px;
+    top: 24px;
+    left: 940px;
 
-li {
+}
+.tel {
+    width: 151px;
+    height: 24px;
+    top: 24px;
+    left: 1133px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.hero{
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+    background: #2E2F42;
+}
+/* Effective */
+h1{
+    width: 496px;
+    height: 120px;
+    top: 260px;
+    left: 472px;
+    /* styleName: Header 1; */
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.btn{
+    width: Hug (169px);
+    height: Hug (56px);
+    top: 428px;
+    left: 636px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+
+
+{
     /* styleName: Body Medium; */
     font-family: Roboto;
     font-size: 16px;
@@ -64,6 +139,7 @@ li {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    
 }
 
 nav a:hover {
@@ -80,23 +156,15 @@ nav a {
     display: flex;
 }
 
-.hero {
+/* Effective Solutions for Your Business */
+.Effective {
     width: 1440px;
-    height: 2592px;
-    top: -1175px;
-    left: 405px;
+    height: 600px;
+    top: 72px;
+    background: #2E2F42;
+    
 }
-
-.top-2 {
-    width: 1440px;
-    height: 72px;
-    border: 0px 0px 1px 0px;
-    background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
-        linear-gradient(0deg, #FFFFFF, #FFFFFF);
-    border-bottom: 1px solid #E7E9FC
-}
-
-.container {
+.container{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -104,7 +172,6 @@ nav a {
     -ms-transform: translate(-20%, -30%);
 
 }
-
 .order-button {
     width: Hug (169px);
     height: Hug (56px);
@@ -118,20 +185,11 @@ nav a {
     position: fixed;
     align-items: center;
 }
-
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(0%, -60%);
-}
-
-/* Effective Solutions for Your Business */
-.Effective {
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-    background: #2E2F42;
 }
 
 .ef-color {
@@ -140,24 +198,16 @@ nav a {
     top: 260px;
     left: 472px;
     color: #FFFFFF;
-
 }
 
-/* styleName: Header 1; */
-.header1 {
+.header1{
+    /* styleName: Header 1; */
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
-}
-
-.text {
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
 }
 
 .columns {
@@ -170,15 +220,15 @@ nav a {
     padding: 20px;
 }
 
+.feature-one .feature-two .feaure-three .feature-four {
+    flex: 25%;
+}
+
 section .one {
     width: 1128px;
     height: 104px;
     top: 792px;
     left: 156px;
-}
-
-.feature-one .feature-two .feaure-three .feature-four {
-    flex: 25%;
 }
 
 .feature-one {
@@ -189,6 +239,32 @@ section .one {
     gap: 8px;
 }
 
+.strategy-layout {
+    width: 264px;
+    height: 24px;
+    /* styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.ourgoal-layout p {
+    width: 264px;
+    height: 72px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
 .feature-two {
     width: Fixed (264px);
     height: Hug (104px);
@@ -197,23 +273,7 @@ section .one {
     gap: 8px;
 }
 
-.feature-three {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
-    left: 732px;
-    gap: 8px;
-}
-
-.feature-four {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
-    left: 1020px;
-    gap: 8px;
-}
-
-.strategy-layout .punctuality-layout .diligence-layout .technology-layout {
+.punctuality-layout {
     width: 264px;
     height: 24px;
     /* //styleName: Header 3; */
@@ -226,7 +286,75 @@ section .one {
     color: #2E2F42;
 }
 
-.ourgoal-layout .bring-layout .research-layout .design-layout {
+.bring-layout {
+    width: 264px;
+    height: 72px;
+    /* //styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.feature-three {
+    width: Fixed (264px);
+    height: Hug (104px);
+    top: 792px;
+    left: 732px;
+    gap: 8px;
+}
+
+.diligence-layout {
+    width: 264px;
+    height: 24px;
+    /* //styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.research-layout {
+    width: 264px;
+    height: 72px;
+    /* //styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.feature-four {
+    width: Fixed (264px);
+    height: Hug (104px);
+    top: 792px;
+    left: 1020px;
+    gap: 8px;
+}
+
+.technology-layout {
+    width: 264px;
+    height: 24px;
+    /* //styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.design-layout {
     width: 264px;
     height: 72px;
     /* //styleName: Body; */
@@ -254,7 +382,7 @@ section .two {
 }
 
 .rect-one .rect-two .rect-three {
-
+   
     flex: 33.3%;
 }
 
@@ -265,9 +393,7 @@ section .two {
     left: 559px;
 
 }
-
-/* styleName: Header 2; */
-.header2 {
+ .header2{   /* //styleName: Header 2; */
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -275,8 +401,7 @@ section .two {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-}
-
+ }
 .img-one {
     width: Hug (360px);
     height: Hug (300px);
@@ -519,6 +644,121 @@ grp-twit-grp {
     gap: 8px;
 }
 
+.cgarcia {
+    width: 88px;
+    height: 24px;
+    /* styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #2E2F42;
+}
+
+.marketing {
+    width: 144px;
+    height: 24px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #434455;
+}
+
+.trail-3 {
+    background: #434455;
+}
+
+/* Property 1="Variant2";
+Property 1="Variant2"; */
+
+
+
+.card-three {
+    width: Hug (264px);
+    height: Hug (380px);
+    top: 1780px;
+    left: 444px;
+    padding: 0px 0px 32px 0px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+
+.img-card3 {
+    width: 264px;
+    height: 260px;
+}
+
+.card-content3 {
+    width: Fixed (232px);
+    height: Hug (56px);
+    gap: 8px;
+}
+
+.dwilliams {
+    width: 88px;
+    height: 24px;
+    /* styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #2E2F42;
+}
+
+.udesigner {
+    width: 144px;
+    height: 24px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #434455;
+}
+
+.trail-3 {
+    background: #434455;
+}
+
+.card-four {
+    width: Hug (264px);
+    height: Hug (380px);
+    top: 1780px;
+    left: 444px;
+    padding: 0px 0px 32px 0px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+
+.img-card4 {
+    width: 264px;
+    height: 260px;
+}
+
+.card-content2 {
+    width: Fixed (232px);
+    height: Hug (56px);
+    gap: 8px;
+}
+
 .tford {
     width: 88px;
     height: 24px;
@@ -548,9 +788,6 @@ grp-twit-grp {
 .trail-2 {
     background: #434455;
 }
-
-/* Property 1="Variant2";
-Property 1="Variant2"; */
 
 footer {
     width: 1440px;
@@ -582,7 +819,6 @@ footer .text-studio {
     /* background: #F4F4FD; */
     color: #F4F4FD;
 }
-
 footer .body {
     /* styleName: Body; */
     font-family: Roboto;
