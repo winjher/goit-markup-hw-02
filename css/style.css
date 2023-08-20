@@ -39,11 +39,21 @@ header {
 
 .nav-right {
     float: right;
+    width: 153px;
+    height: 24px;
+    top: 24px;
+    left: 940px;
+
 }
 
 .link {
     display: inline-block;
     text-align: center;
+    width: Hug (261px);
+    height: Hug (24px);
+    top: 24px;
+    left: 347px;
+    gap: 40px;
 }
 
 nav ul {
