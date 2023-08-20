@@ -618,36 +618,7 @@ grp-twit-grp {
 /* Property 1="Variant2";
 Property 1="Variant2"; */
 
-footer {
-    width: 1440px;
-    height: 312px;
-    top: 2280px;
-    background: #2E2F42;
-}
 
-footer .text-2 {
-    width: 264px;
-    height: 112px;
-    top: 2380px;
-    left: 156px;
-}
-
-footer .logo {
-    width: Hug (115px);
-    height: Fixed (24px);
-    top: 2380px;
-    left: 156px;
-}
-
-footer .text-web {
-    /* background: #4D5AE5; */
-    color: #4D5AE5;
-}
-
-footer .text-studio {
-    /* background: #F4F4FD; */
-    color: #F4F4FD;
-}
 
 .card-three {
     width: Hug (264px);
@@ -759,7 +730,36 @@ footer .text-studio {
     background: #434455;
 }
 
+footer {
+    width: 1440px;
+    height: 312px;
+    top: 2280px;
+    background: #2E2F42;
+}
 
+footer .text-2 {
+    width: 264px;
+    height: 112px;
+    top: 2380px;
+    left: 156px;
+}
+
+footer .logo {
+    width: Hug (115px);
+    height: Fixed (24px);
+    top: 2380px;
+    left: 156px;
+}
+
+footer .text-web {
+    /* background: #4D5AE5; */
+    color: #4D5AE5;
+}
+
+footer .text-studio {
+    /* background: #F4F4FD; */
+    color: #F4F4FD;
+}
 footer .body {
     /* styleName: Body; */
     font-family: Roboto;
