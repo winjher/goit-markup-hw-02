@@ -130,6 +130,7 @@ nav a {
     height: 600px;
     top: 72px;
     background: #2E2F42;
+    
 }
 .ef-color {
     width: 496px;
@@ -139,7 +140,8 @@ nav a {
     color: #FFFFFF;
 
 }
-.header2{
+
+.header1{
     /* styleName: Header 1; */
     font-family: Roboto;
     font-size: 56px;
@@ -148,16 +150,6 @@ nav a {
     letter-spacing: 0.02em;
     text-align: center;
 }
-.text {
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
-}
-
-
-
-
 
 .columns {
     display: flex;
@@ -191,7 +183,7 @@ section .one {
 .strategy-layout {
     width: 264px;
     height: 24px;
-    /* //styleName: Header 3; */
+    /* styleName: Header 3; */
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -204,6 +196,14 @@ section .one {
 .ourgoal-layout p {
     width: 264px;
     height: 72px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
 }
 
 .feature-two {
