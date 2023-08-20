@@ -176,7 +176,7 @@ nav a {
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 120px;
 }
 
 section .one {
@@ -186,43 +186,36 @@ section .one {
     left: 156px;
 }
 
-.feature-one .feature-two .feaure-three .feature-four {
+.feature-one,
+.feature-two,
+.feaure-three,
+.feature-four {
+    width: Fixed (264px);
+    height: Hug (104px);
+    top: 792px;
+    gap: 8px;
     flex: 25%;
 }
 
 .feature-one {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
     left: 156px;
-    gap: 8px;
 }
 
 .feature-two {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
-    left: 444px;
-    gap: 8px;
+    left: 444px; 
 }
 
 .feature-three {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
     left: 732px;
-    gap: 8px;
 }
 
 .feature-four {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
     left: 1020px;
-    gap: 8px;
 }
 
-.strategy-layout {
+
+
+h3 {
     width: 264px;
     height: 24px;
     /* //styleName: Header 3; */
@@ -235,41 +228,7 @@ section .one {
     color: #2E2F42;
 }
 
-.ourgoal-layout p {
-    width: 264px;
-    height: 72px;
-    /* styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
-}
-
-.feature-two {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
-    left: 444px;
-    gap: 8px;
-}
-
-.punctuality-layout {
-    width: 264px;
-    height: 24px;
-    /* //styleName: Header 3; */
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-}
-
-.bring-layout {
+p {
     width: 264px;
     height: 72px;
     /* //styleName: Body; */
@@ -280,101 +239,6 @@ section .one {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
-}
-
-.feature-three {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
-    left: 732px;
-    gap: 8px;
-}
-
-.diligence-layout {
-    width: 264px;
-    height: 24px;
-    /* //styleName: Header 3; */
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-}
-
-.research-layout {
-    width: 264px;
-    height: 72px;
-    /* //styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
-}
-
-.feature-four {
-    width: Fixed (264px);
-    height: Hug (104px);
-    top: 792px;
-    left: 1020px;
-    gap: 8px;
-}
-
-.technology-layout {
-    width: 264px;
-    height: 24px;
-    /* //styleName: Header 3; */
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-}
-
-.design-layout {
-    width: 264px;
-    height: 72px;
-    /* //styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
-}
-.strategy-layout .punctuality-layout .diligence-layout .technology-layout {
-    width: 264px;
-    height: 24px;
-    /* //styleName: Header 3; */
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-    flex: 25%;
-}
-
-.ourgoal-layout .bring-layout .research-layout .design-layout {
-    width: 264px;
-    height: 72px;
-    /* //styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
-    flex: 25%;
 }
 
 section .two {
@@ -388,7 +252,7 @@ section .two {
 .column-image {
     display: flex;
     justify-content: space-evenly;
-    padding: 0;
+    padding: 10;
 }
 
 .rect-one .rect-two .rect-three {
@@ -409,7 +273,7 @@ section .two {
 }
 
 /* styleName: Header 2; */
-.header2 {
+h2 {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -446,6 +310,7 @@ section .three {
     top: 1548px;
     background: #F4F4FD;
     align-items: center;
+    padding: 130;
 }
 
 .ourteam {
@@ -737,9 +602,10 @@ footer .text-web {
 footer .text-studio {
     /* background: #F4F4FD; */
     color: #F4F4FD;
+    
 }
 
-footer .body {
+footer p {
     /* styleName: Body; */
     font-family: Roboto;
     font-size: 16px;
@@ -753,8 +619,10 @@ footer .body {
     left: 156px;
     color: #F4F4FD;
     float: left;
+    padding-top: 124px;
+    padding-left: 124px;
 }
-footer .text-2 {
+footer .text-2{
     width: 264px;
     height: 112px;
     top: 2380px;
