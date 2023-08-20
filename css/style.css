@@ -585,7 +585,7 @@ grp-twit-grp {
     gap: 8px;
 }
 
-.tford {
+.cgarcia {
     width: 88px;
     height: 24px;
     /* styleName: Header 3; */
@@ -598,7 +598,7 @@ grp-twit-grp {
     background: #2E2F42;
 }
 
-.fdeveloper {
+.marketing {
     width: 144px;
     height: 24px;
     /* styleName: Body; */
@@ -611,7 +611,7 @@ grp-twit-grp {
     background: #434455;
 }
 
-.trail-2 {
+.trail-3 {
     background: #434455;
 }
 
@@ -649,7 +649,115 @@ footer .text-studio {
     color: #F4F4FD;
 }
 
+.card-three {
+    width: Hug (264px);
+    height: Hug (380px);
+    top: 1780px;
+    left: 444px;
+    padding: 0px 0px 32px 0px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
 
+.img-card3 {
+    width: 264px;
+    height: 260px;
+}
+
+.card-content3 {
+    width: Fixed (232px);
+    height: Hug (56px);
+    gap: 8px;
+}
+
+.dwilliams {
+    width: 88px;
+    height: 24px;
+    /* styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #2E2F42;
+}
+
+.udesigner {
+    width: 144px;
+    height: 24px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #434455;
+}
+
+.trail-3 {
+    background: #434455;
+}
+
+.card-four {
+    width: Hug (264px);
+    height: Hug (380px);
+    top: 1780px;
+    left: 444px;
+    padding: 0px 0px 32px 0px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+
+.img-card4 {
+    width: 264px;
+    height: 260px;
+}
+
+.card-content2 {
+    width: Fixed (232px);
+    height: Hug (56px);
+    gap: 8px;
+}
+
+.tford {
+    width: 88px;
+    height: 24px;
+    /* styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #2E2F42;
+}
+
+.fdeveloper {
+    width: 144px;
+    height: 24px;
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: #434455;
+}
+
+.trail-2 {
+    background: #434455;
+}
 
 
 footer .body {
