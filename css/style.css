@@ -1,4 +1,28 @@
-h1 {
+:root{
+    --color-iris: #4D5AE5;
+    --color-grey: #2E2F42;
+    --color-white: #FFFFFF;
+    --color-cornflower: #E7E9FC;
+    --color-ocean: #404BBF;
+    --color-cloud: #F4F4FD;
+    --color-dairy: #FCFCFC;
+    
+    --font-family-raleway:'Raleway',san-serif:
+    --font-family-open-sans:'Open sans',san-serif;
+    --font-family-roboto: 'Roboto',san-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Opens Sans' ,san-serif;
+}
+
+.service-title {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
