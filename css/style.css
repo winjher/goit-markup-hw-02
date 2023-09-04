@@ -20,7 +20,7 @@
 
 body{
     font-family: 'Opens Sans' ,san-serif;
-  
+    font-family: Roboto;
 }
 
 .logo-web {
@@ -43,7 +43,6 @@ body{
 
 }
 .nav-menu-link a{
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -54,14 +53,19 @@ body{
 
 .nav-menu{
     list-style: none;
-    
+
+
 }
 
+.address-menu{
 
+    list-style: none;
+
+
+}
 
 .address-email-link,
 .address-telephone-link {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -71,24 +75,28 @@ body{
 
 .main-hero {
     background-color: var(--color-grey);
-    color: #FFFFFF;
+    color:var(--color-white);
     width: 1440px;
     height: 600px;
     top: 72px;
 
 }
 .service-hero-title {
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
+    color: var(--color-white);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
 
 }
 .order-button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--color-ocean);
+    color: var(--color-white);
     height: 56px;
     width: 169px;
 }
@@ -109,7 +117,7 @@ body{
     border: 1px;
     background: linear-gradient(0deg, #F4F4FD, #F4F4FD),
     linear-gradient(0deg, #E7E9FC, #E7E9FC);
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--color-cornflower);
     
 }
 .filter-btn :active{
@@ -128,15 +136,9 @@ h3 {
     height: 24px;
 }
 
-h2 {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
+
+
+
 
 p {
     color: #434455;
