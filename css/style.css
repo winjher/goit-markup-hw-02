@@ -1,6 +1,6 @@
 :root{
     --color-iris: #4D5AE5;
-    --color-grey: #2E2F42;
+    --color-navyblue: #2E2F42;
     --color-white: #FFFFFF;
     --color-cornflower: #E7E9FC;
     --color-ocean: #404BBF;
@@ -28,7 +28,7 @@ body{
 }
 
 .logo-studio {
-    color: var(--color-grey);
+    color: var(--color-navyblue);
    
 }
 .logo-web,
@@ -74,7 +74,7 @@ body{
 }
 
 .main-hero {
-    background-color: var(--color-grey);
+    background-color: var(--color-navyblue);
     color:var(--color-white);
     width: 1440px;
     height: 600px;
@@ -166,10 +166,12 @@ footer {
 .text-web{
     color: var(--color-iris);
     text-decoration: none;
+    font-family: Raleway;
 }
 .text-studio{
     color: var(--color-cloud);
     text-decoration: none;
+    font-family: Raleway;
 
 }
 
