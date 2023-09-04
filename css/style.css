@@ -20,17 +20,10 @@
 
 body{
     font-family: 'Opens Sans' ,san-serif;
+  
 }
 
-.service-title {
-    font-family: Roboto;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    text-align: center;
 
-}
 
 .logo-web {
     color: #4D5AE5;
@@ -53,7 +46,10 @@ body{
     letter-spacing: 0.03em;
     text-align: left;
 }
-
+.logo-studio,
+.logo-studio{
+    text-decoration: none;
+}
 nav {
     font-family: Roboto;
     font-size: 16px;
@@ -69,9 +65,7 @@ ul {
     
 }
 
-a:hover {
-    color: blue;
-}
+
 .nav-menu-link,
 .address-info-link,
 .address-tel-link {
@@ -91,7 +85,15 @@ a:hover {
     top: 72px;
 
 }
+.service-title {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
 
+}
 .order-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
