@@ -75,7 +75,6 @@ body{
 
 .main-hero {
     background-color: var(--color-navyblue);
-    color:var(--color-white);
     width: 1440px;
     height: 600px;
     top: 72px;
@@ -126,22 +125,14 @@ body{
 
 .our-team-name
 .section-features-list{
-    color:var(--color-grey);
+    color:var(--color-navyblue);
     
 }
 
 .ourteam-work,
 .section-features-item {
     color:var(--color-slate);
-}
 
-.items {
-    width: 1128px;
-    height: 104px;
-    top: 792px;
-    left: 156px;
-    border: #434455;
-    display: flex;
 }
 
 .section-item-gallery {
@@ -151,23 +142,27 @@ body{
     left: 156px;
 
 }
+
 .section-item-team{
     width: 1440px;
     height: 732px;
     top: 1548px;    
 
 }
+
 footer {
     width: 1440px;
     height: 312px;
     top: 2280px;
-    background: var(--color-grey);
+    background: var(--color-navyblue);
 }
+
 .text-web{
     color: var(--color-iris);
     text-decoration: none;
     font-family: Raleway;
 }
+
 .text-studio{
     color: var(--color-cloud);
     text-decoration: none;
