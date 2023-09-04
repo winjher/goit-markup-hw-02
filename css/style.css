@@ -23,21 +23,16 @@ body{
   
 }
 
-
-
 .logo-web {
-    color: #4D5AE5;
-    text-decoration: none;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
+    color: var(--color-iris);
 }
 
 .logo-studio {
-    color: #2E2F42;
+    color: var(--color-grey);
+   
+}
+.logo-web,
+.logo-studio{
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
@@ -45,12 +40,9 @@ body{
     line-height: 21px;
     letter-spacing: 0.03em;
     text-align: left;
+
 }
-.logo-studio,
-.logo-studio{
-    text-decoration: none;
-}
-nav {
+.nav-menu-link {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -60,13 +52,13 @@ nav {
     text-decoration: none;
 }
 
-ul {
+.nav-menu{
     list-style: none;
     
 }
 
 
-.nav-menu-link,
+
 .address-info-link,
 .address-tel-link {
     font-family: Roboto;
@@ -77,15 +69,15 @@ ul {
     text-decoration: none;
 }
 
-.hero {
-    background-color: #2E2F42;
+.main-hero {
+    background-color: var(--color-grey);
     color: #FFFFFF;
     width: 1440px;
     height: 600px;
     top: 72px;
 
 }
-.service-title {
+.service-hero-title {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
