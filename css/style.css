@@ -6,7 +6,7 @@
     --color-ocean: #404BBF;
     --color-cloud: #F4F4FD;
     --color-dairy: #FCFCFC;
-    
+    --color-slate: #434455;
     --font-family-raleway:'Raleway',san-serif:
     --font-family-open-sans:'Open sans',san-serif;
     --font-family-roboto: 'Roboto',san-serif;
@@ -86,7 +86,6 @@ body{
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--color-white);
     font-size: 36px;
     font-weight: 700;
@@ -121,37 +120,18 @@ body{
     
 }
 .filter-btn :active{
-    background: #404BBF;
-
-
-}
-h3 {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    width: 264px;
-    height: 24px;
+    background: var(--color-ocean);
 }
 
+.our-team-name
+.section-features-list{
+    color:var(--color-grey);
+    
+}
 
-
-
-
-p {
-    color: #434455;
-    width: 264px;
-    height: 72px;
-    /* styleName: Body; */
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    padding: 10px;
+.ourteam-work,
+.section-features-item {
+    color:var(--color-slate);
 }
 
 .items {
@@ -162,6 +142,7 @@ p {
     border: #434455;
     display: flex;
 }
+
 .section-item-gallery {
     width: 1128px;
     height: 412px;
