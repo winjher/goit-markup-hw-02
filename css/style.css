@@ -164,7 +164,7 @@ footer {
 }
 .text-web{
     color: var(--color-iris);
-
+    text-decoration: none;
 }
 .text-studio{
     color: var(--color-cloud);
