@@ -26,10 +26,8 @@ body{
 .logo-web {
     color: var(--color-iris);
 }
-
 .logo-studio {
     color: var(--color-navyblue);
-   
 }
 .logo-web,
 .logo-studio{
@@ -53,15 +51,10 @@ body{
 
 .nav-menu{
     list-style: none;
-
-
 }
 
 .address-menu{
-
     list-style: none;
-
-
 }
 
 .address-email-link,
@@ -78,8 +71,8 @@ body{
     width: 1440px;
     height: 600px;
     top: 72px;
-
 }
+
 .service-hero-title {
     font-size: 56px;
     font-weight: 700;
@@ -90,8 +83,8 @@ body{
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.02em;
-
 }
+
 .service-button-cta {
     background-color: var(--color-ocean);
     color: var(--color-white);
@@ -117,24 +110,12 @@ body{
     background: linear-gradient(0deg, #F4F4FD, #F4F4FD),
     linear-gradient(0deg, #E7E9FC, #E7E9FC);
     border: 1px solid var(--color-cornflower);
-    
 }
 .filter-btn :active{
     background: var(--color-ocean);
 }
 
-.our-team-name
-.section-features-list{
-    color:var(--color-navyblue);
-    
-}
-
-.ourteam-work,
-.section-features-item {
-    color:var(--color-slate);
-
-}
-.section-gallery-title{
+.section-gallery-title,.our-team-title{
     color: #2E2F42;
     font-family: Roboto;
     font-size: 36px;
@@ -143,12 +124,12 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .section-item-gallery {
     width: 1128px;
     height: 412px;
     top: 1016px;
     left: 156px;
-
 }
 
 .section-item-team{
@@ -156,6 +137,16 @@ body{
     height: 732px;
     top: 1548px;    
 
+}
+
+.our-team-name
+.section-features-list{
+    color:var(--color-navyblue);
+}
+
+.ourteam-work,
+.section-features-item {
+    color:var(--color-slate);
 }
 
 footer {
@@ -185,5 +176,4 @@ footer {
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--color-cloud);
-
 }
