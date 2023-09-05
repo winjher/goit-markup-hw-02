@@ -92,7 +92,7 @@ body{
     letter-spacing: 0.02em;
 
 }
-.order-button {
+.service-button-cta {
     background-color: var(--color-ocean);
     color: var(--color-white);
     height: 56px;
@@ -134,7 +134,15 @@ body{
     color:var(--color-slate);
 
 }
-
+.section-gallery-title{
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 .section-item-gallery {
     width: 1128px;
     height: 412px;
