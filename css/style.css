@@ -180,12 +180,11 @@ footer {
     color: var(--color-cloud);
 }
 .text-footer:hover,
-.nav-menu-link,
 .address-email-link:hover,
 .address-telephone-link:hover{
     color: var(--color-navyblue);
     cursor: pointer;
 }
-.active{
+.nav-menu-link:active{
     color: var(--color-slate);
 }
