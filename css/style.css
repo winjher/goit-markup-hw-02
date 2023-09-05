@@ -92,7 +92,9 @@ body{
     width: 169px;
     box-shadow: none;
 }
-
+.service-button-cta:hover{
+    cursor: pointer;
+}
 .section-filter{
     width: Hug (586px);
     height: Hug (48px);
