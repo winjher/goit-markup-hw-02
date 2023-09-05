@@ -7,7 +7,7 @@
     --color-cloud: #F4F4FD;
     --color-dairy: #FCFCFC;
     --color-slate: #434455;
-    --font-family-raleway:'Raleway',san-serif:
+    --font-family-raleway:'Raleway',san-serif;
     --font-family-open-sans:'Open sans',san-serif;
     --font-family-roboto: 'Roboto',san-serif;
 }
@@ -183,6 +183,9 @@ footer {
 .nav-menu-link,
 .address-email-link:hover,
 .address-telephone-link:hover{
-    active: var(--color-navyblue);
+    color: var(--color-navyblue);
     cursor: pointer;
+}
+.active{
+    color: var(--color-slate);
 }
