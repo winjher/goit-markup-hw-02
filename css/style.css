@@ -23,10 +23,10 @@ body{
     font-family: Roboto;
 }
 
-.logo-web {
+.logo-web::before {
     color: var(--color-iris);
 }
-.logo-studio {
+.logo-studio::after {
     color: var(--color-navyblue);
 }
 .logo-web,
