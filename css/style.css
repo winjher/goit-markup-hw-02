@@ -92,6 +92,7 @@ body{
     width: 169px;
     box-shadow: none;
     border-radius: 10px;
+    border: none;
 }
 .service-button-cta:hover{
     cursor: pointer;
