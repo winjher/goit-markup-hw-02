@@ -179,11 +179,12 @@ footer {
     text-align: left;
     color: var(--color-cloud);
 }
-.text-footer:hover,
+.text-footer:hover{
+     color: var(--color-iris);
+}
 .address-email-link:hover,
 .address-telephone-link:hover{
     color: var(--color-navyblue);
-    cursor: pointer;
 }
 .nav-menu-link:active{
     color: var(--color-slate);
