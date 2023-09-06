@@ -27,7 +27,7 @@ body{
     content: "WEB";
     color: var(--color-iris);
 }
-.logo-webstudio a {
+.logo-webstudio {
     color: var(--color-navyblue);
 }
 .logo-webstudio{
