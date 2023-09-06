@@ -26,6 +26,8 @@ body{
 .logo-webstudio::before {
     content: WEB;
     color: var(--color-iris);
+    content: STUDIO:
+    color: var(--color-navyblue);
 }
 .logo-webstudio::after {
     content: STUDIO;
