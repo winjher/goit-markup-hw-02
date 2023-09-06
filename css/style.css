@@ -24,17 +24,16 @@ body{
 }
 
 .logo-webstudio::before {
-    content: WEB;
+    content: "WEB";
     color: var(--color-iris);
-    content: STUDIO:
+    content: "STUDIO":
     color: var(--color-navyblue);
 }
 .logo-webstudio::after {
     content: STUDIO;
     color: var(--color-navyblue);
 }
-.logo-web,
-.logo-studio{
+.logo-webstudio{
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
