@@ -24,9 +24,11 @@ body{
 }
 
 .logo-web::before {
+    content: WEB;
     color: var(--color-iris);
 }
 .logo-studio::after {
+    content: STUDIO;
     color: var(--color-navyblue);
 }
 .logo-web,
