@@ -23,7 +23,7 @@ body{
     font-family: Roboto;
 }
 
-.logo-webstudio a::before {
+.logo-webstudio::before {
     content: "WEB";
     color: var(--color-iris);
 }
