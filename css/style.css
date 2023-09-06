@@ -23,13 +23,11 @@ body{
     font-family: Roboto;
 }
 
-.logo-webstudio::before {
+.logo-webstudio a::before {
     content: "WEB";
     color: var(--color-iris);
-    content: "STUDIO":
-    color: var(--color-navyblue);
 }
-.logo-webstudio::after {
+.logo-webstudio a::after {
     content: STUDIO;
     color: var(--color-navyblue);
 }
