@@ -101,8 +101,11 @@ a[href="/"]{
     border-radius: 4px;
     border: none;
 }
+
 .service-button-cta:hover{
     cursor: pointer;
+    color: var(--color-navyblue);
+    background-color: var(--color-iris);
 }
 .section-filter{
     width: Hug (586px);
@@ -123,7 +126,13 @@ a[href="/"]{
     border: 1px solid var(--color-cornflower);
     cursor: pointer;
 }
-.filter-btn :active{
+.filter-btn:hover{
+    background: var(--color-ocean)
+}
+.filter-btn:focus{
+    background: var(--color-ocean)
+}
+.filter-btn:active{
     background: var(--color-ocean);
     cursor: pointer;
 }
@@ -193,10 +202,16 @@ footer {
 .text-footer:hover{
      color: var(--color-iris);
 }
-.address-email-link:hover,
+.address-email-link:hover ,
 .address-telephone-link:hover{
     color: var(--color-navyblue);
 }
 .nav-menu-link:active{
     color: var(--color-slate);
+}
+.nav-menu-link, a:hover{
+    color: var(--color-navyblue);
+}
+.nav-menu-link, a:focus{
+    color: var(--color-navyblue);
 }
