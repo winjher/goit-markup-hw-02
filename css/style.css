@@ -30,13 +30,17 @@ a[href="/"]{
     color: var(--color-iris);
 }
 
-.logo-webstudio::before {
+.logo-webstudio::before{
     content: "WEB";
     color: var(--color-iris);
 }
-.logo-webstudio {
+
+.logo-webstudio::after{
+    content: "STUDIO";
     color: var(--color-navyblue);
 }
+
+
 .logo-webstudio{
     text-decoration: none;
     font-family: Raleway;
