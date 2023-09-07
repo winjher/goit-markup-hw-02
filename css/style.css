@@ -138,7 +138,7 @@ a[href="/"]{
 }
 
 .section-gallery-title,.our-team-title{
-    color: #2E2F42;
+    color: var(--color-navyblue);
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
