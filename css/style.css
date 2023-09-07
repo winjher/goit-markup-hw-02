@@ -35,8 +35,8 @@ a[href="/"]{
     color: var(--color-iris);
 }
 
-.logo-webstudio::after{
-    content: "STUDIO";
+.logo-webstudio{
+
     color: var(--color-navyblue);
 }
 
