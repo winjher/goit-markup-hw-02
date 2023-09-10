@@ -40,8 +40,11 @@ button {
     border: unset;
 }
 
-.header{
-    color: var(--color-iris);
+header{
+    width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid #E7E9FC;
+    border: 1px;
     background-color: var(--color-white);
 }
 /* a[href="/"]{
