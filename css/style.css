@@ -72,8 +72,8 @@ body{
     list-style: none;
 }
 
-.address-email-link,
-.address-telephone-link {
+
+.address-link {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -210,8 +210,7 @@ footer {
 .text-footer:hover{
      color: var(--color-iris);
 }
-.address-email-link:hover ,
-.address-telephone-link:hover{
+.address-link:hover {
     color: var(--color-navyblue);
 }
 .nav-menu-link:active{
