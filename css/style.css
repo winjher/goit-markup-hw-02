@@ -105,7 +105,7 @@ button {
 }
 
 .address-link:hover {
-    color: var(--color-iris);
+    color: var(--color-slate);
 }
 
 .address-link:active{
