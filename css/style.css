@@ -85,7 +85,7 @@ button {
 }
 
 .nav-menu-link:hover{
-    color: var(--color-slate);
+    color: var(--color-iris);
 }
 
 .nav-menu-link:focus{
@@ -105,9 +105,12 @@ button {
 }
 
 .address-link:hover {
-    color: var(--color-slate);
+    color: var(--color-iris);
 }
 
+.address-link:active{
+    color: var(--color-slate);
+}
 .main-hero {
     background-color: var(--color-navyblue);
     width: 1440px;
