@@ -153,6 +153,10 @@ button {
     gap: 24px;
 }
 
+.active {
+  background-color: linear-gradient(0deg, #F4F4FD, #F4F4FD);
+}
+
 .filter-btn{
     width: Hug (116px);
     height: Hug (48px);
