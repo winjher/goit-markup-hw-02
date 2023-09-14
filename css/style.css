@@ -152,9 +152,6 @@ button {
     gap: 24px;
 }
 
-.active {
-    color: var(--color-ocean)
-}
 
 .filter-btn{
     width: Hug (116px);
