@@ -165,6 +165,7 @@ button {
     linear-gradient(0deg, #E7E9FC, #E7E9FC);
     border: 1px solid var(--color-cornflower);
     cursor: pointer;
+    color: var(--color-iris)
 }
 .filter-btn:hover{
     background: var(--color-ocean)
@@ -175,6 +176,7 @@ button {
 .filter-btn:active{
     background: var(--color-ocean);
     cursor: pointer;
+    color: var(--color-white)
 }
 
 .section-gallery-title,.our-team-title{
