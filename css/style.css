@@ -143,6 +143,7 @@ button {
     color: var(--color-slate);
     background-color: var(--color-iris);
 }
+
 .section-filter{
     width: Hug (586px);
     height: Hug (48px);
@@ -168,10 +169,12 @@ button {
     color: var(--color-iris)
 }
 .filter-btn:hover{
-    background: var(--color-slate)
+    background: var(--color-ocean)
+    color: var(--color-white)
 }
 .filter-btn:focus{
     background: var(--color-ocean)
+    color: var(--color-white)
 }
 .filter-btn:active{
     background: var(--color-ocean);
