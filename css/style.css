@@ -83,7 +83,7 @@ button {
 }
 
 .nav-menu-link:active{
-    color: var(--color-navyblue);
+    color: var(--color-ocean);
 }
 
 .nav-menu-link:hover{
