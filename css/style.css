@@ -83,7 +83,7 @@ button {
 }
 
 .nav-menu-link:active{
-    color: var(--color-slate);
+    color: var(--color-navyblue);
 }
 
 .nav-menu-link:hover{
@@ -140,7 +140,7 @@ button {
 
 .service-button-cta:hover{
     cursor: pointer;
-    color: var(--color-navyblue);
+    color: var(--color-slate);
     background-color: var(--color-iris);
 }
 .section-filter{
@@ -168,7 +168,7 @@ button {
     color: var(--color-iris)
 }
 .filter-btn:hover{
-    background: var(--color-ocean)
+    background: var(--color-slate)
 }
 .filter-btn:focus{
     background: var(--color-ocean)
