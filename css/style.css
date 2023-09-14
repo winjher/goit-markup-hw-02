@@ -152,7 +152,7 @@ button {
 }
 
 .active {
-  background-color: linear-gradient(0deg, #F4F4FD, #F4F4FD);
+    background: var(--color-ocean)
 }
 
 .filter-btn{
